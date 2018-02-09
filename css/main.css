@@ -1,6 +1,26 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: linear-gradient(blue, indigo);
   background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#my-pos {
+  color: #000;
+}
+
+.marker-txt {
+  color: #000;
 }
