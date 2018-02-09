@@ -21,6 +21,23 @@ body {
   color: #000;
 }
 
+.my-header {
+  text-align: center;
+  color: #fff;
+  background: -webkit-linear-gradient(indigo, blue);
+  background: -o-linear-gradient(indigo, blue);
+  background: linear-gradient(indigo, blue);
+  border-radius: 50%;
+  border-bottom: 20px solid indigo;
+}
+
 .marker-txt {
   color: #000;
+}
+
+.my-location {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

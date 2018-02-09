@@ -1,5 +1,9 @@
 console.log("Hello World! JS is working...");
 
+function reloadPage() {
+    location.reload();
+};
+
 function initMap() {
   var myHood = {lat:38.8048, lng: -77.0469};
   var thaTrap = {lat:38.7993, lng: -77.0670};
