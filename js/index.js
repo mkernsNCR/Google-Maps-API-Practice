@@ -6,7 +6,7 @@ function reloadPage() {
 
 function initMap() {
   var myHood = {lat:38.8048, lng: -77.0469};
-  var thaTrap = {lat:38.7993, lng: -77.0670};
+  // var thaTrap = {lat:38.7993, lng: -77.0670};
   var options = {
     zoom: 14,
     center: myHood
@@ -20,12 +20,8 @@ function initMap() {
   var markers = [
     {
       coords: myHood,
-      content: '<h1 class="marker-txt">My Hood</h1>'
-    },
-    {
-      coords: thaTrap,
-      iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-      content: '<h1 class="marker-txt">Tha Trap</h1>'
+      content: '<h1 class="marker-txt">Alexandria, VA.</h1>',
+      iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
     }
   ];
 
