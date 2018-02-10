@@ -41,3 +41,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Ticketmaster Styles Below */
+
+#attraction-panel {
+  display:none;
+}
+
+.pager {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tm-events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tm-events-title {
+  text-align: center;
+  color: #007bff;
+}
